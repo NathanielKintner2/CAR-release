@@ -1,0 +1,216 @@
+<Character xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Second_Attempt">
+  <CombatStuff>
+    <CombatDB>2</CombatDB>
+    <CombatName>Draugr1</CombatName>
+    <CombatOB>10</CombatOB>
+    <CombatShield>
+      <Count>0</Count>
+      <Description i:nil="true" />
+      <Enchantments xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <IsEquipped>false</IsEquipped>
+      <IsIdentified>false</IsIdentified>
+      <ItemEffects />
+      <ItemName />
+      <Type>Gloves</Type>
+      <UnidentifiedDescription i:nil="true" />
+      <Use>Equipable</Use>
+      <Weight>0</Weight>
+      <Coverage>0</Coverage>
+      <DefensiveBonus>0</DefensiveBonus>
+      <OffensiveBonus>0</OffensiveBonus>
+    </CombatShield>
+    <CombatWeapon>
+      <Count>1</Count>
+      <Description>Scary talons, on a draugr atm</Description>
+      <Enchantments xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <IsEquipped>true</IsEquipped>
+      <IsIdentified>true</IsIdentified>
+      <ItemEffects />
+      <ItemName>Talons</ItemName>
+      <Type>Gloves</Type>
+      <UnidentifiedDescription />
+      <Use>Equipable</Use>
+      <Weight>0</Weight>
+      <BlockingDifficulty>3</BlockingDifficulty>
+      <DamageTypes xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
+          <d4p1:Key>Slash</d4p1:Key>
+          <d4p1:Value>1.25</d4p1:Value>
+        </d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
+        <d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
+          <d4p1:Key>Pierce</d4p1:Key>
+          <d4p1:Value>0.2</d4p1:Value>
+        </d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
+        <d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
+          <d4p1:Key>Crush</d4p1:Key>
+          <d4p1:Value>0.2</d4p1:Value>
+        </d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
+      </DamageTypes>
+      <DefensiveBonus>0</DefensiveBonus>
+      <ExcessStrengthMultiplier>0.5</ExcessStrengthMultiplier>
+      <OffensiveBonus>0</OffensiveBonus>
+      <ParryBreak>1</ParryBreak>
+      <ParryStrength>0.5</ParryStrength>
+      <StaminaRequirement>5</StaminaRequirement>
+      <WeaponTypes />
+    </CombatWeapon>
+    <CurrentlyInCombat>false</CurrentlyInCombat>
+  </CombatStuff>
+  <CreatureTypes>
+    <Utilities.CreatureType>Undead</Utilities.CreatureType>
+  </CreatureTypes>
+  <Description />
+  <Effects />
+  <Enchantments xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <GoogleNinjaNotesInbound i:nil="true" />
+  <GoogleNinjaNotesOutbound />
+  <GoogleNinjaNotesRebound i:nil="true" />
+  <GoogleSheetID />
+  <HitPoints>140</HitPoints>
+  <Inventory>
+    <Item i:type="Weapon">
+      <Count>1</Count>
+      <Description>Scary talons, on a draugr atm</Description>
+      <Enchantments xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <IsEquipped>true</IsEquipped>
+      <IsIdentified>true</IsIdentified>
+      <ItemEffects />
+      <ItemName>Talons</ItemName>
+      <Type>Gloves</Type>
+      <UnidentifiedDescription />
+      <Use>Equipable</Use>
+      <Weight>0</Weight>
+      <BlockingDifficulty>3</BlockingDifficulty>
+      <DamageTypes xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
+          <d4p1:Key>Slash</d4p1:Key>
+          <d4p1:Value>1.25</d4p1:Value>
+        </d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
+        <d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
+          <d4p1:Key>Pierce</d4p1:Key>
+          <d4p1:Value>0.2</d4p1:Value>
+        </d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
+        <d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
+          <d4p1:Key>Crush</d4p1:Key>
+          <d4p1:Value>0.2</d4p1:Value>
+        </d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
+      </DamageTypes>
+      <DefensiveBonus>0</DefensiveBonus>
+      <ExcessStrengthMultiplier>0.5</ExcessStrengthMultiplier>
+      <OffensiveBonus>0</OffensiveBonus>
+      <ParryBreak>1</ParryBreak>
+      <ParryStrength>0.5</ParryStrength>
+      <StaminaRequirement>5</StaminaRequirement>
+      <WeaponTypes />
+    </Item>
+    <Item>
+      <Count>1</Count>
+      <Description>A beautiful blue stone, set in a finely crafted silver band.</Description>
+      <Enchantments xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <IsEquipped>true</IsEquipped>
+      <IsIdentified>true</IsIdentified>
+      <ItemEffects />
+      <ItemName>Stone of Jordan</ItemName>
+      <Type>Ring</Type>
+      <UnidentifiedDescription i:nil="true" />
+      <Use>Equipable</Use>
+      <Weight>0.1</Weight>
+    </Item>
+    <Item>
+      <Count>2</Count>
+      <Description>A high-denomination coin, worth 100 Bits</Description>
+      <Enchantments xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <IsEquipped>false</IsEquipped>
+      <IsIdentified>false</IsIdentified>
+      <ItemEffects />
+      <ItemName>Electrum Crown</ItemName>
+      <Type>Jewel</Type>
+      <UnidentifiedDescription>A mysterious metal circle
+spooky tbh</UnidentifiedDescription>
+      <Use>Inert</Use>
+      <Weight>0.1</Weight>
+    </Item>
+    <Item i:type="Armor">
+      <Count>1</Count>
+      <Description />
+      <Enchantments xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <IsEquipped>true</IsEquipped>
+      <IsIdentified>true</IsIdentified>
+      <ItemEffects />
+      <ItemName>Cadaverous Flesh</ItemName>
+      <Type>Gloves</Type>
+      <UnidentifiedDescription />
+      <Use>Equipable</Use>
+      <Weight>0</Weight>
+      <CoveredAreas>
+        <Utilities.BodyParts>Head</Utilities.BodyParts>
+        <Utilities.BodyParts>Neck</Utilities.BodyParts>
+        <Utilities.BodyParts>Chest</Utilities.BodyParts>
+        <Utilities.BodyParts>LeftShoulder</Utilities.BodyParts>
+        <Utilities.BodyParts>RightShoulder</Utilities.BodyParts>
+        <Utilities.BodyParts>LeftArm</Utilities.BodyParts>
+        <Utilities.BodyParts>RightArm</Utilities.BodyParts>
+        <Utilities.BodyParts>LeftHand</Utilities.BodyParts>
+        <Utilities.BodyParts>RightHand</Utilities.BodyParts>
+        <Utilities.BodyParts>Gut</Utilities.BodyParts>
+        <Utilities.BodyParts>Groin</Utilities.BodyParts>
+        <Utilities.BodyParts>LeftLeg</Utilities.BodyParts>
+        <Utilities.BodyParts>RightLeg</Utilities.BodyParts>
+        <Utilities.BodyParts>LeftFoot</Utilities.BodyParts>
+        <Utilities.BodyParts>RightFoot</Utilities.BodyParts>
+      </CoveredAreas>
+      <DamageReductionTypes xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <DamageResistanceTypes xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
+          <d4p1:Key>Slash</d4p1:Key>
+          <d4p1:Value>0.5</d4p1:Value>
+        </d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
+        <d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
+          <d4p1:Key>Pierce</d4p1:Key>
+          <d4p1:Value>0.5</d4p1:Value>
+        </d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
+        <d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
+          <d4p1:Key>Crush</d4p1:Key>
+          <d4p1:Value>0.5</d4p1:Value>
+        </d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
+        <d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
+          <d4p1:Key>Heat</d4p1:Key>
+          <d4p1:Value>0.1</d4p1:Value>
+        </d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
+        <d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
+          <d4p1:Key>Cold</d4p1:Key>
+          <d4p1:Value>0.7</d4p1:Value>
+        </d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
+        <d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
+          <d4p1:Key>Shock</d4p1:Key>
+          <d4p1:Value>0.4</d4p1:Value>
+        </d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
+        <d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
+          <d4p1:Key>Impact</d4p1:Key>
+          <d4p1:Value>0.5</d4p1:Value>
+        </d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
+      </DamageResistanceTypes>
+      <DefensiveBonus>0</DefensiveBonus>
+      <OffensiveBonus>-2</OffensiveBonus>
+      <StaminaRequirement>0</StaminaRequirement>
+    </Item>
+  </Inventory>
+  <Name>Draugr</Name>
+  <Skills>
+    <ArmorSkill>5</ArmorSkill>
+    <EnduranceSkill>20</EnduranceSkill>
+    <HPSkill>20</HPSkill>
+    <PerceptionSkill>5</PerceptionSkill>
+    <ReflexSkill>5</ReflexSkill>
+  </Skills>
+  <Spells />
+  <Stamina>1040</Stamina>
+  <Statistics>
+    <Charisma>5</Charisma>
+    <Constitution>20</Constitution>
+    <Dexterity>20</Dexterity>
+    <Intelligence>5</Intelligence>
+    <Strength>20</Strength>
+    <Wisdom>5</Wisdom>
+  </Statistics>
+</Character>
