@@ -8,9 +8,11 @@
       <Description i:nil="true" />
       <Enchantments xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
       <IsEquipped>false</IsEquipped>
+      <IsIdentified>false</IsIdentified>
       <ItemEffects />
       <ItemName>No Shield</ItemName>
       <Type>Gloves</Type>
+      <UnidentifiedDescription i:nil="true" />
       <Use>Equipable</Use>
       <Weight>0</Weight>
       <Coverage>0</Coverage>
@@ -22,9 +24,11 @@
       <Description>An Angel's sword, conjured innately in time of need.</Description>
       <Enchantments xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
       <IsEquipped>true</IsEquipped>
+      <IsIdentified>false</IsIdentified>
       <ItemEffects />
       <ItemName>Holy Sword</ItemName>
       <Type>Gloves</Type>
+      <UnidentifiedDescription i:nil="true" />
       <Use>Equipable</Use>
       <Weight>1</Weight>
       <BlockingDifficulty>7</BlockingDifficulty>
@@ -47,6 +51,8 @@
   <CreatureTypes>
     <Utilities.CreatureType>Human</Utilities.CreatureType>
     <Utilities.CreatureType>Demon</Utilities.CreatureType>
+    <Utilities.CreatureType>Natural</Utilities.CreatureType>
+    <Utilities.CreatureType>Spirit</Utilities.CreatureType>
   </CreatureTypes>
   <Description />
   <Effects />
@@ -58,62 +64,26 @@
   <HitPoints>32.5</HitPoints>
   <Inventory>
     <Item i:type="Weapon">
-      <Count>0</Count>
-      <Description>An Angel's sword, conjured innately in time of need.</Description>
+      <Count>1</Count>
+      <Description i:nil="true" />
       <Enchantments xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
       <IsEquipped>true</IsEquipped>
+      <IsIdentified>true</IsIdentified>
       <ItemEffects />
       <ItemName>Holy Sword</ItemName>
       <Type>Gloves</Type>
+      <UnidentifiedDescription />
       <Use>Equipable</Use>
-      <Weight>1</Weight>
-      <BlockingDifficulty>7</BlockingDifficulty>
+      <Weight>0</Weight>
+      <BlockingDifficulty>0</BlockingDifficulty>
       <DamageTypes xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <DefensiveBonus>1</DefensiveBonus>
-      <ExcessStrengthMultiplier>0.1</ExcessStrengthMultiplier>
-      <OffensiveBonus>5</OffensiveBonus>
-      <ParryBreak>4</ParryBreak>
-      <ParryStrength>0.2</ParryStrength>
-      <StaminaRequirement>35</StaminaRequirement>
-      <WeaponTypes>
-        <Utilities.WeaponType>Melee</Utilities.WeaponType>
-        <Utilities.WeaponType>Magical</Utilities.WeaponType>
-        <Utilities.WeaponType>LightBlade</Utilities.WeaponType>
-        <Utilities.WeaponType>Innate</Utilities.WeaponType>
-      </WeaponTypes>
-    </Item>
-    <Item i:type="Armor">
-      <Count>0</Count>
-      <Description />
-      <Enchantments xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <IsEquipped>true</IsEquipped>
-      <ItemEffects />
-      <ItemName>Iron Breastplate</ItemName>
-      <Type>Gloves</Type>
-      <Use>Equipable</Use>
-      <Weight>4</Weight>
-      <CoveredAreas>
-        <Utilities.BodyParts>Chest</Utilities.BodyParts>
-        <Utilities.BodyParts>Gut</Utilities.BodyParts>
-      </CoveredAreas>
-      <DamageReductionTypes xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <DamageResistanceTypes xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
-          <d4p1:Key>Slash</d4p1:Key>
-          <d4p1:Value>0.5</d4p1:Value>
-        </d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
-        <d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
-          <d4p1:Key>Pierce</d4p1:Key>
-          <d4p1:Value>0.5</d4p1:Value>
-        </d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
-        <d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
-          <d4p1:Key>Crush</d4p1:Key>
-          <d4p1:Value>0.5</d4p1:Value>
-        </d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
-      </DamageResistanceTypes>
-      <DefensiveBonus>1</DefensiveBonus>
-      <OffensiveBonus>-1</OffensiveBonus>
-      <StaminaRequirement>3</StaminaRequirement>
+      <DefensiveBonus>0</DefensiveBonus>
+      <ExcessStrengthMultiplier>0</ExcessStrengthMultiplier>
+      <OffensiveBonus>0</OffensiveBonus>
+      <ParryBreak>0</ParryBreak>
+      <ParryStrength>0</ParryStrength>
+      <StaminaRequirement>0</StaminaRequirement>
+      <WeaponTypes />
     </Item>
   </Inventory>
   <Name>Dualikos</Name>
@@ -127,11 +97,11 @@
   <Spells />
   <Stamina>400</Stamina>
   <Statistics>
-    <Charisma>16</Charisma>
-    <Constitution>13</Constitution>
-    <Dexterity>12</Dexterity>
-    <Intelligence>14</Intelligence>
+    <Charisma>9</Charisma>
+    <Constitution>16</Constitution>
+    <Dexterity>16</Dexterity>
+    <Intelligence>16</Intelligence>
     <Strength>11</Strength>
-    <Wisdom>15</Wisdom>
+    <Wisdom>8</Wisdom>
   </Statistics>
 </Character>
