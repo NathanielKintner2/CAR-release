@@ -1,4 +1,5 @@
 <Character xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Second_Attempt">
+  <CharTypeTag />
   <CombatStuff>
     <CombatDB>0</CombatDB>
     <CombatName>Dualikos1</CombatName>
@@ -60,7 +61,6 @@
   <GoogleNinjaNotesInbound i:nil="true" />
   <GoogleNinjaNotesOutbound i:nil="true" />
   <GoogleNinjaNotesRebound i:nil="true" />
-  <GoogleSheetID />
   <HitPoints>32.5</HitPoints>
   <Inventory>
     <Item i:type="Weapon">
@@ -101,7 +101,7 @@
     <Constitution>16</Constitution>
     <Dexterity>16</Dexterity>
     <Intelligence>16</Intelligence>
-    <Strength>11</Strength>
+    <Strength>10</Strength>
     <Wisdom>8</Wisdom>
   </Statistics>
 </Character>

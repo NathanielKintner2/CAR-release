@@ -20,8 +20,6 @@
     <Utilities.BodyParts>RightHand</Utilities.BodyParts>
     <Utilities.BodyParts>Gut</Utilities.BodyParts>
     <Utilities.BodyParts>Groin</Utilities.BodyParts>
-    <Utilities.BodyParts>LeftLeg</Utilities.BodyParts>
-    <Utilities.BodyParts>RightLeg</Utilities.BodyParts>
     <Utilities.BodyParts>LeftFoot</Utilities.BodyParts>
     <Utilities.BodyParts>RightFoot</Utilities.BodyParts>
   </CoveredAreas>

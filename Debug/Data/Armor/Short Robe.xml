@@ -20,8 +20,6 @@
     <Utilities.BodyParts>RightHand</Utilities.BodyParts>
     <Utilities.BodyParts>Gut</Utilities.BodyParts>
     <Utilities.BodyParts>Groin</Utilities.BodyParts>
-    <Utilities.BodyParts>LeftLeg</Utilities.BodyParts>
-    <Utilities.BodyParts>RightLeg</Utilities.BodyParts>
   </CoveredAreas>
   <DamageReductionTypes xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
     <d2p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
