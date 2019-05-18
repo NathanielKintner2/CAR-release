@@ -1,144 +1,40 @@
 <Character xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Second_Attempt">
+  <CharTypeTag />
   <CombatStuff>
-    <CombatDB>2</CombatDB>
-    <CombatName>Draugr1</CombatName>
-    <CombatOB>10</CombatOB>
-    <CombatShield>
-      <Count>0</Count>
-      <Description i:nil="true" />
-      <Enchantments xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <IsEquipped>false</IsEquipped>
-      <IsIdentified>false</IsIdentified>
-      <ItemEffects />
-      <ItemName />
-      <Type>Gloves</Type>
-      <UnidentifiedDescription i:nil="true" />
-      <Use>Equipable</Use>
-      <Weight>0</Weight>
-      <Coverage>0</Coverage>
-      <DefensiveBonus>0</DefensiveBonus>
-      <OffensiveBonus>0</OffensiveBonus>
-    </CombatShield>
-    <CombatWeapon>
-      <Count>1</Count>
-      <Description>Scary talons, on a draugr atm</Description>
-      <Enchantments xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <IsEquipped>true</IsEquipped>
-      <IsIdentified>true</IsIdentified>
-      <ItemEffects />
-      <ItemName>Talons</ItemName>
-      <Type>Gloves</Type>
-      <UnidentifiedDescription />
-      <Use>Equipable</Use>
-      <Weight>0</Weight>
-      <BlockingDifficulty>3</BlockingDifficulty>
-      <DamageTypes xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
-          <d4p1:Key>Slash</d4p1:Key>
-          <d4p1:Value>1.25</d4p1:Value>
-        </d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
-        <d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
-          <d4p1:Key>Pierce</d4p1:Key>
-          <d4p1:Value>0.2</d4p1:Value>
-        </d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
-        <d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
-          <d4p1:Key>Crush</d4p1:Key>
-          <d4p1:Value>0.2</d4p1:Value>
-        </d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
-      </DamageTypes>
-      <DefensiveBonus>0</DefensiveBonus>
-      <ExcessStrengthMultiplier>0.5</ExcessStrengthMultiplier>
-      <OffensiveBonus>0</OffensiveBonus>
-      <ParryBreak>1</ParryBreak>
-      <ParryStrength>0.5</ParryStrength>
-      <StaminaRequirement>5</StaminaRequirement>
-      <WeaponTypes />
-    </CombatWeapon>
+    <CombatDB>0</CombatDB>
+    <CombatName i:nil="true" />
+    <CombatOB>0</CombatOB>
+    <CombatShield i:nil="true" />
+    <CombatWeapon i:nil="true" />
     <CurrentlyInCombat>false</CurrentlyInCombat>
   </CombatStuff>
   <CreatureTypes>
     <Utilities.CreatureType>Undead</Utilities.CreatureType>
   </CreatureTypes>
-  <Description />
+  <Description>A disturbingly twisted and aggressive undead, these creatures consume vast amounts of flesh and bone. Much of it is digested in a somehwat conventional fashion, but particularly sturdy bones and ligaments are removed and stored in the body wall. There they provide additional protection, and can be repidly moved through the body to replace broken bones, which are then ejected through the skin. Draugr are highly regenerative, able to regrow any limb within a matter of hours. They often 'customize' their bodies, adding or removing limbs or joints as they please.</Description>
   <Effects />
   <Enchantments xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
   <GoogleNinjaNotesInbound i:nil="true" />
-  <GoogleNinjaNotesOutbound />
+  <GoogleNinjaNotesOutbound i:nil="true" />
   <GoogleNinjaNotesRebound i:nil="true" />
-  <GoogleSheetID />
-  <HitPoints>106</HitPoints>
-  <Inventory>
-    <Item i:type="Weapon">
-      <Count>1</Count>
-      <Description i:nil="true" />
-      <Enchantments xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <IsEquipped>true</IsEquipped>
-      <IsIdentified>true</IsIdentified>
-      <ItemEffects />
-      <ItemName>Talons</ItemName>
-      <Type>Gloves</Type>
-      <UnidentifiedDescription />
-      <Use>Equipable</Use>
-      <Weight>0</Weight>
-      <BlockingDifficulty>0</BlockingDifficulty>
-      <DamageTypes xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <DefensiveBonus>0</DefensiveBonus>
-      <ExcessStrengthMultiplier>0</ExcessStrengthMultiplier>
-      <OffensiveBonus>0</OffensiveBonus>
-      <ParryBreak>0</ParryBreak>
-      <ParryStrength>0</ParryStrength>
-      <StaminaRequirement>0</StaminaRequirement>
-      <WeaponTypes />
-    </Item>
-    <Item i:type="Armor">
-      <Count>1</Count>
-      <Description i:nil="true" />
-      <Enchantments xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <IsEquipped>true</IsEquipped>
-      <IsIdentified>true</IsIdentified>
-      <ItemEffects />
-      <ItemName>Cadaverous Flesh</ItemName>
-      <Type>Gloves</Type>
-      <UnidentifiedDescription />
-      <Use>Equipable</Use>
-      <Weight>0</Weight>
-      <CoveredAreas />
-      <DamageReductionTypes xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <DamageResistanceTypes xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <DefensiveBonus>0</DefensiveBonus>
-      <OffensiveBonus>0</OffensiveBonus>
-      <StaminaRequirement>0</StaminaRequirement>
-    </Item>
-    <Item>
-      <Count>6</Count>
-      <Description i:nil="true" />
-      <Enchantments xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <IsEquipped>false</IsEquipped>
-      <IsIdentified>false</IsIdentified>
-      <ItemEffects />
-      <ItemName>Health Potion</ItemName>
-      <Type>Gloves</Type>
-      <UnidentifiedDescription />
-      <Use>Equipable</Use>
-      <Weight>0</Weight>
-    </Item>
-  </Inventory>
+  <HitPoints>0</HitPoints>
+  <Inventory />
   <Name>Draugr</Name>
   <Skills>
-    <ArmorSkill>5</ArmorSkill>
-    <EnduranceSkill>20</EnduranceSkill>
-    <HPSkill>20</HPSkill>
-    <PerceptionSkill>5</PerceptionSkill>
-    <ReflexSkill>5</ReflexSkill>
+    <ArmorSkill>1</ArmorSkill>
+    <EnduranceSkill>100</EnduranceSkill>
+    <HPSkill>10</HPSkill>
+    <PerceptionSkill>0</PerceptionSkill>
+    <ReflexSkill>4</ReflexSkill>
   </Skills>
   <Spells />
-  <Stamina>1050</Stamina>
+  <Stamina>0</Stamina>
   <Statistics>
-    <Charisma>5</Charisma>
+    <Charisma>2</Charisma>
     <Constitution>20</Constitution>
-    <Dexterity>15</Dexterity>
-    <Intelligence>5</Intelligence>
-    <Strength>20</Strength>
-    <Wisdom>5</Wisdom>
+    <Dexterity>20</Dexterity>
+    <Intelligence>2</Intelligence>
+    <Strength>18</Strength>
+    <Wisdom>2</Wisdom>
   </Statistics>
 </Character>

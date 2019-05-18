@@ -1,59 +1,11 @@
 <Character xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Second_Attempt">
+  <CharTypeTag />
   <CombatStuff>
     <CombatDB>0</CombatDB>
-    <CombatName>Silent1</CombatName>
+    <CombatName i:nil="true" />
     <CombatOB>0</CombatOB>
-    <CombatShield>
-      <Count>0</Count>
-      <Description i:nil="true" />
-      <Enchantments xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <IsEquipped>false</IsEquipped>
-      <IsIdentified>false</IsIdentified>
-      <ItemEffects />
-      <ItemName />
-      <Type>Gloves</Type>
-      <UnidentifiedDescription i:nil="true" />
-      <Use>Equipable</Use>
-      <Weight>0</Weight>
-      <Coverage>0</Coverage>
-      <DefensiveBonus>0</DefensiveBonus>
-      <OffensiveBonus>0</OffensiveBonus>
-    </CombatShield>
-    <CombatWeapon>
-      <Count>1</Count>
-      <Description />
-      <Enchantments xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <IsEquipped>true</IsEquipped>
-      <IsIdentified>true</IsIdentified>
-      <ItemEffects />
-      <ItemName>Halberd</ItemName>
-      <Type>Gloves</Type>
-      <UnidentifiedDescription />
-      <Use>Equipable</Use>
-      <Weight>5</Weight>
-      <BlockingDifficulty>1</BlockingDifficulty>
-      <DamageTypes xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
-          <d4p1:Key>Slash</d4p1:Key>
-          <d4p1:Value>0.5</d4p1:Value>
-        </d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
-        <d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
-          <d4p1:Key>Pierce</d4p1:Key>
-          <d4p1:Value>0.5</d4p1:Value>
-        </d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
-        <d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
-          <d4p1:Key>Crush</d4p1:Key>
-          <d4p1:Value>0.2</d4p1:Value>
-        </d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
-      </DamageTypes>
-      <DefensiveBonus>0</DefensiveBonus>
-      <ExcessStrengthMultiplier>0.4</ExcessStrengthMultiplier>
-      <OffensiveBonus>5</OffensiveBonus>
-      <ParryBreak>1</ParryBreak>
-      <ParryStrength>1</ParryStrength>
-      <StaminaRequirement>5</StaminaRequirement>
-      <WeaponTypes />
-    </CombatWeapon>
+    <CombatShield i:nil="true" />
+    <CombatWeapon i:nil="true" />
     <CurrentlyInCombat>false</CurrentlyInCombat>
   </CombatStuff>
   <CreatureTypes>
@@ -65,105 +17,8 @@
   <GoogleNinjaNotesInbound i:nil="true" />
   <GoogleNinjaNotesOutbound i:nil="true" />
   <GoogleNinjaNotesRebound i:nil="true" />
-  <GoogleSheetID />
-  <HitPoints>42</HitPoints>
-  <Inventory>
-    <Item i:type="Weapon">
-      <Count>1</Count>
-      <Description />
-      <Enchantments xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <IsEquipped>true</IsEquipped>
-      <IsIdentified>true</IsIdentified>
-      <ItemEffects />
-      <ItemName>Halberd</ItemName>
-      <Type>Gloves</Type>
-      <UnidentifiedDescription />
-      <Use>Equipable</Use>
-      <Weight>5</Weight>
-      <BlockingDifficulty>1</BlockingDifficulty>
-      <DamageTypes xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
-          <d4p1:Key>Slash</d4p1:Key>
-          <d4p1:Value>0.5</d4p1:Value>
-        </d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
-        <d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
-          <d4p1:Key>Pierce</d4p1:Key>
-          <d4p1:Value>0.5</d4p1:Value>
-        </d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
-        <d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
-          <d4p1:Key>Crush</d4p1:Key>
-          <d4p1:Value>0.2</d4p1:Value>
-        </d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
-      </DamageTypes>
-      <DefensiveBonus>0</DefensiveBonus>
-      <ExcessStrengthMultiplier>0.4</ExcessStrengthMultiplier>
-      <OffensiveBonus>5</OffensiveBonus>
-      <ParryBreak>1</ParryBreak>
-      <ParryStrength>1</ParryStrength>
-      <StaminaRequirement>5</StaminaRequirement>
-      <WeaponTypes />
-    </Item>
-    <Item i:type="Armor">
-      <Count>1</Count>
-      <Description />
-      <Enchantments xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <IsEquipped>true</IsEquipped>
-      <IsIdentified>false</IsIdentified>
-      <ItemEffects />
-      <ItemName>Full Plate</ItemName>
-      <Type>Gloves</Type>
-      <UnidentifiedDescription />
-      <Use>Equipable</Use>
-      <Weight>12</Weight>
-      <CoveredAreas>
-        <Utilities.BodyParts>Head</Utilities.BodyParts>
-        <Utilities.BodyParts>Neck</Utilities.BodyParts>
-        <Utilities.BodyParts>Chest</Utilities.BodyParts>
-        <Utilities.BodyParts>LeftShoulder</Utilities.BodyParts>
-        <Utilities.BodyParts>RightShoulder</Utilities.BodyParts>
-        <Utilities.BodyParts>LeftArm</Utilities.BodyParts>
-        <Utilities.BodyParts>RightArm</Utilities.BodyParts>
-        <Utilities.BodyParts>LeftHand</Utilities.BodyParts>
-        <Utilities.BodyParts>RightHand</Utilities.BodyParts>
-        <Utilities.BodyParts>Gut</Utilities.BodyParts>
-        <Utilities.BodyParts>Groin</Utilities.BodyParts>
-        <Utilities.BodyParts>LeftLeg</Utilities.BodyParts>
-        <Utilities.BodyParts>RightLeg</Utilities.BodyParts>
-        <Utilities.BodyParts>LeftFoot</Utilities.BodyParts>
-        <Utilities.BodyParts>RightFoot</Utilities.BodyParts>
-      </CoveredAreas>
-      <DamageReductionTypes xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <DamageResistanceTypes xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-        <d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
-          <d4p1:Key>Slash</d4p1:Key>
-          <d4p1:Value>0.5</d4p1:Value>
-        </d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
-        <d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
-          <d4p1:Key>Pierce</d4p1:Key>
-          <d4p1:Value>0.5</d4p1:Value>
-        </d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
-        <d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
-          <d4p1:Key>Crush</d4p1:Key>
-          <d4p1:Value>0.5</d4p1:Value>
-        </d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
-        <d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
-          <d4p1:Key>Heat</d4p1:Key>
-          <d4p1:Value>0.2</d4p1:Value>
-        </d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
-        <d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
-          <d4p1:Key>Cold</d4p1:Key>
-          <d4p1:Value>0.2</d4p1:Value>
-        </d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
-        <d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
-          <d4p1:Key>Shock</d4p1:Key>
-          <d4p1:Value>0.2</d4p1:Value>
-        </d4p1:KeyValueOfUtilities.DamageTypedoublenlt4N763>
-      </DamageResistanceTypes>
-      <DefensiveBonus>-3</DefensiveBonus>
-      <OffensiveBonus>-3</OffensiveBonus>
-      <StaminaRequirement>3</StaminaRequirement>
-    </Item>
-  </Inventory>
+  <HitPoints>0</HitPoints>
+  <Inventory />
   <Name>Silent</Name>
   <Skills>
     <ArmorSkill>2</ArmorSkill>
@@ -173,7 +28,7 @@
     <ReflexSkill>3</ReflexSkill>
   </Skills>
   <Spells />
-  <Stamina>475</Stamina>
+  <Stamina>0</Stamina>
   <Statistics>
     <Charisma>7</Charisma>
     <Constitution>14</Constitution>

@@ -6,7 +6,7 @@
   <IsIdentified>false</IsIdentified>
   <ItemEffects />
   <ItemName>Copper Bit</ItemName>
-  <Type>Jewel</Type>
+  <Type>Currency</Type>
   <UnidentifiedDescription i:nil="true" />
   <Use>Inert</Use>
   <Weight>0.05</Weight>

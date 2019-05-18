@@ -1,4 +1,5 @@
 <Character xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Second_Attempt">
+  <CharTypeTag />
   <CombatStuff>
     <CombatDB>0</CombatDB>
     <CombatName i:nil="true" />
@@ -8,6 +9,7 @@
     <CurrentlyInCombat>false</CurrentlyInCombat>
   </CombatStuff>
   <CreatureTypes>
+    <Utilities.CreatureType>Natural</Utilities.CreatureType>
     <Utilities.CreatureType>Demon</Utilities.CreatureType>
   </CreatureTypes>
   <Description />
@@ -16,25 +18,24 @@
   <GoogleNinjaNotesInbound i:nil="true" />
   <GoogleNinjaNotesOutbound i:nil="true" />
   <GoogleNinjaNotesRebound i:nil="true" />
-  <GoogleSheetID />
   <HitPoints>0</HitPoints>
-  <Inventory i:nil="true" />
+  <Inventory />
   <Name>Fungus Bee</Name>
   <Skills>
-    <ArmorSkill>0</ArmorSkill>
-    <EnduranceSkill>0</EnduranceSkill>
-    <HPSkill>0</HPSkill>
+    <ArmorSkill>3</ArmorSkill>
+    <EnduranceSkill>2</EnduranceSkill>
+    <HPSkill>2</HPSkill>
     <PerceptionSkill>0</PerceptionSkill>
     <ReflexSkill>2</ReflexSkill>
   </Skills>
   <Spells />
   <Stamina>0</Stamina>
   <Statistics>
-    <Charisma>2</Charisma>
-    <Constitution>8</Constitution>
-    <Dexterity>8</Dexterity>
-    <Intelligence>2</Intelligence>
-    <Strength>8</Strength>
-    <Wisdom>2</Wisdom>
+    <Charisma>6</Charisma>
+    <Constitution>12</Constitution>
+    <Dexterity>15</Dexterity>
+    <Intelligence>6</Intelligence>
+    <Strength>12</Strength>
+    <Wisdom>6</Wisdom>
   </Statistics>
 </Character>

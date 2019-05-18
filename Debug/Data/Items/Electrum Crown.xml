@@ -6,7 +6,7 @@
   <IsIdentified>false</IsIdentified>
   <ItemEffects />
   <ItemName>Electrum Crown</ItemName>
-  <Type>Jewel</Type>
+  <Type>Currency</Type>
   <UnidentifiedDescription i:nil="true" />
   <Use>Inert</Use>
   <Weight>0.1</Weight>
